@@ -24,7 +24,6 @@ def get_filters():
     city = ''
     month = ''
     day = ''
-
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while city not in VALID_CITY_NAMES:
         city = input("Please enter city name ('chicago', 'new york city', 'washington'):\n").lower().strip()
