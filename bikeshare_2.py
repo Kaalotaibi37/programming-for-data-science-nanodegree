@@ -18,6 +18,7 @@ def get_filters():
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+	change 1
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     city = ''
@@ -48,6 +49,7 @@ def get_filters():
 
 def load_data(city, month, day):
     """
+    change 2
     Loads data for the specified city and filters by month and day if applicable.
 
     Args:
