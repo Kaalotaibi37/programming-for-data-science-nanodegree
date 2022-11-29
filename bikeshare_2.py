@@ -29,7 +29,7 @@ def get_filters():
     while city not in VALID_CITY_NAMES:
         city = input("Please enter city name ('chicago', 'new york city', 'washington'):\n").lower().strip()
         if city not in VALID_CITY_NAMES:
-            print('Please enter valid city name')
+            print('Invalid name, Kindly to enter valid city name')
 
     # get user input for month (all, january, february, ... , june)
     while month not in VALID_MONTH_NAMES:
