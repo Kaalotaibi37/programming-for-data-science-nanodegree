@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+ 
 VALID_CITY_NAMES = ['chicago', 'new york city', 'washington']
 VALID_MONTH_NAMES = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 VALID_DAY_OF_WEEK = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
